@@ -1,3 +1,13 @@
+:root {
+  --cor-p: #525252;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --cor-p: #747474;
+  }
+}
+
 .introducao {
   max-width: 1200px;
   padding: 40px 20px;
@@ -29,7 +39,7 @@
 
 .introducao p {
   font-size: 1.5rem;
-  color: #525252;
+  color: var(--cor-p);
 }
 
 @media (max-width: 1000px) {

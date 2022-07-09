@@ -1,6 +1,19 @@
+:root {
+  --background-body: #ffffff;
+  --cor-texto-geral: #141414;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-body: #111111;
+    --cor-texto-geral: #f5f5f5;
+  }
+}
+
 body {
   font-family: "Fira Sans", Arial, sans-serif;
-  color: #141414;
+  color: var(--cor-texto-geral);
+  background-color: var(--background-body);
   margin: 0rem;
   justify-items: center;
 }
@@ -21,6 +34,7 @@ ul {
 img {
   max-width: 100%;
   display: block;
+  border-radius: 6px;
 }
 
 .subtitulo {
