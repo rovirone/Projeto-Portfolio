@@ -64,12 +64,15 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
+  .introducao img {
+    grid-row: 2;
+  }
   .introducao {
     grid-template-columns: 1fr;
   }
-  .introducao img {
-    display: none;
+  .introducao {
+    justify-items: center;
   }
   .introducao h1 {
     font-size: 3rem;
