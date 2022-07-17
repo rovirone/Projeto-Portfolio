@@ -36,15 +36,9 @@
   .footer-contato {
     gap: 20px;
   }
-  .footer a {
-    padding: 5px 10px;
-  }
 }
 
 @media (max-width: 780px) {
-  .footer a {
-    font-size: 16px;
-  }
   .footer-contato {
     justify-content: center;
     gap: 30px;
